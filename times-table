@@ -1,0 +1,44 @@
+// This program prints the 9 times table
+
+#include <stdio.h>
+
+int main() {
+    
+	int row = 0;
+	int col;
+	int rep;
+
+	while (row <= 9)
+	{
+		col = 0;
+		while (col <= 9)
+		{
+			rep = row * col;
+			if (col == 0)
+			{
+				putchar('0' + rep);
+			}
+			else if (rep < 10)
+			{
+				putchar(' ');
+				putchar('0' + rep);
+			}
+			else
+			{
+				putchar('0' + rep / 10);
+				putchar('0' + rep % 10);
+			}
+
+			if (col < 9)
+			{
+				putchar(',');
+				putchar(' ');
+			}
+			col++;
+		}
+		putchar('\n');
+		row++;
+	}
+
+    return 0;
+}
