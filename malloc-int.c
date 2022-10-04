@@ -6,6 +6,7 @@
  *
  * Return: 0.
  * Resource: https://alx-intranet.hbtn.io/concepts/62
+ *Note: *tab is same as tab[0], *(tab+1)= tab[1], *(tab+2)=tab[2]
  */
 int main(void)
 {
