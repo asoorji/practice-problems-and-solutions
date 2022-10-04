@@ -5,6 +5,7 @@
  * main - introduction to malloc and free
  *
  * Return: 0.
+ * Resource: https://alx-intranet.hbtn.io/concepts/62
  */
 int main(void)
 {
