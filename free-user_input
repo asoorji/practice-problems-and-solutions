@@ -1,0 +1,33 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/**
+ * main - Allocates memory, then free it
+ * Returns: An undefined behaviour is returned when you try to access the values after freeing the memory
+ *Resource: https://www.youtube.com/watch?v=zHHhcdRzLcc
+*/
+
+int main()
+{
+    int i, n, *ptr;
+    
+    ptr = (int*)malloc(n * sizeof(int));
+    printf("Enter no of values: ");
+    scanf("%d", &n);
+    
+    printf("Enter values: ");
+    for (i=1; i<=n; i++)
+    {
+        scanf("%d", (ptr+i));
+    }
+    
+    free(ptr);
+    
+    printf("You entered: ");
+    for (i=1; i<=n; i++)
+    {
+        printf("%d ", *(ptr+i));
+    }
+    // free(ptr);
+    return 0;
+}
