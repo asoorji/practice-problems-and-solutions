@@ -3,6 +3,7 @@
 
 /**
 *main - Takes user input and dynamically assigns memory space to them
+* Returns gabbage values if no value is entered (unlike calloc which returns 0 values) i.e if the first loop is commented
 *Resource: https://www.youtube.com/watch?v=U2MqRhKzOgg&list=RDLVy4EzSnHJj-Q&index=2
 */
 
