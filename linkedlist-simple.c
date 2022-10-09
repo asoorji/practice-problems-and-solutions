@@ -1,6 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/**
+*Resource: https://log2base2.com/courses/data-structures-in-c/linked-list-basics-c-trial
+*/
+
 struct node
 {
     int data;
