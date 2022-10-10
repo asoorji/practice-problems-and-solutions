@@ -15,8 +15,7 @@ struct node *head, *middle, *last, *temp;
 
 int main()
 {
-    printf("Hello, World!\n");
-    
+   
     head = malloc(sizeof(struct node));
     middle = malloc(sizeof(struct node));
     last = malloc(sizeof(struct node));
