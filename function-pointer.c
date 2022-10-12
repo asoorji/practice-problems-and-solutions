@@ -2,6 +2,7 @@
 
 /**
  * @ptr: Function pointer
+ *Uses: Function pointers are mainly used for callback functions
  * Resource: https://www.youtube.com/watch?v=qaszuaFXRTA
  */
 
