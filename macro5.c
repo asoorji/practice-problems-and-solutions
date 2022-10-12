@@ -1,5 +1,8 @@
-/* Online C Compiler and Editor */
 #include <stdio.h>
+
+/**
+*Predefined macro
+*/
 
 int main()
 {
